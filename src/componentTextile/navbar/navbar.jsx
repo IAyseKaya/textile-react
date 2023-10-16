@@ -37,8 +37,8 @@ function Navbar() {
                         <a href="#" className="-m-1.5 p-1.5">
                             <span className="sr-only">Your Company</span>
                             <img
-                                className="h-8 w-auto"
-                                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                                className="h-12 w-auto"
+                                src="https://media.discordapp.net/attachments/988883199209926710/1163569245775478794/pngaaa.com-2771228.png?ex=65400d4e&is=652d984e&hm=9850c5bcba77eaa90431dddb32e22898a5d5f8804858ff44d28d7a82dae6dc89&=&width=720&height=454"
                                 alt=""
                             />
                         </a>
@@ -73,8 +73,8 @@ function Navbar() {
                             <a href="#" className="-m-1.5 p-1.5">
                                 <span className="sr-only">Your Company</span>
                                 <img
-                                    className="h-8 w-auto"
-                                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                                    className="h-12 w-auto"
+                                    src="https://media.discordapp.net/attachments/988883199209926710/1163569245775478794/pngaaa.com-2771228.png?ex=65400d4e&is=652d984e&hm=9850c5bcba77eaa90431dddb32e22898a5d5f8804858ff44d28d7a82dae6dc89&=&width=720&height=454"
                                     alt=""
                                 />
                             </a>
@@ -116,16 +116,16 @@ function Navbar() {
             <div className="inner-nav w-full m-10 flex items-center justify-center">
                 <ul role="list" className="m-5 grid  gap-x-8 lg:grid-cols-4 sm:grid-cols-2 sm:gap-20 xl:col-span-12">
                     {navigation.map((nav) => (
-                        <li key={nav.name} 
-                        className='flex items-center gap-x-3'>
+                        <li key={nav.name}
+                            className='flex items-center gap-x-3'>
                             <div className='bg-gradient-to-r from-orange-100 via-amber-600  to-orange-100 h-28 w-28 rounded-full flex items-center justify-center'>
                                 <div className="flex items-center justify-center gap-x-3 ">
-                                <img className="h-24 w-24 object-cover hover:h-28 hover:w-28 rounded-full ease-in-out duration-300" src={nav.imageUrl} alt="" /> 
-                            </div>
+                                    <img className="h-24 w-24 object-cover hover:h-28 hover:w-28 rounded-full ease-in-out duration-300" src={nav.imageUrl} alt="" />
+                                </div>
                             </div>
                             <div>
-                                    <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">{nav.name}</h3>
-                                </div>
+                                <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">{nav.name}</h3>
+                            </div>
                         </li>
                     ))}
                 </ul>
